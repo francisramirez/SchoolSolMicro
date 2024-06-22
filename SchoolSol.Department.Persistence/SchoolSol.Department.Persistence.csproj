@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Context\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolSol.Common.Data\SchoolSol.Common.Data.csproj" />
+    <ProjectReference Include="..\SchoolSol.Department.Domain\SchoolSol.Department.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
